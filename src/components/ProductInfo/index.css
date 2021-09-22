@@ -17,8 +17,8 @@ div.largeImage {
 }
 
 .productName {
-    font-size: 68px;
-    font-weight: bold;
+    font-size: 68px !important; 
+    font-weight: bold  !important;
 }
 
 .productGrid {
@@ -38,18 +38,18 @@ div.largeImage {
 }
 
 .description{
-    font-size: 25px;
+    font-size: 26px !important;
 }
 
 .type{
-    font-size: 50px;
+    font-size: 50px !important;
 }
 
-.sizeControll{
+.selector{
     width: 300px;
     height: 400x;
 }
 
 .selectSize{
-    font-size: 20;
+    font-size: 20px;
 }

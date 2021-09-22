@@ -51,7 +51,7 @@ const ProductInfo = () => {
             <Typography className="dollars" >706.93</Typography>
           </Grid>
           <Grid item lg={12}>
-          <FormControl className="sizeControll">
+          <FormControl className="selector">
         <InputLabel  shrink htmlFor="select-multiple-native">
           Select Size
         </InputLabel>
@@ -64,7 +64,7 @@ const ProductInfo = () => {
       </FormControl>
       </Grid>
       <Grid item lg={12}>
-          <FormControl  className="sizeControll">
+          <FormControl  className="selector">
         <InputLabel  shrink htmlFor="select-multiple-native">
           Select Color
         </InputLabel>
